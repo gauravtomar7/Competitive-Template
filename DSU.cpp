@@ -1,3 +1,4 @@
+//O(4*ALPHA, 1)
 class DisjointSetUnion
 {
       vector<int> rank, parent, size;
