@@ -1,4 +1,5 @@
 //RETURN ALL THE INDICES OF OCCURING STRING NEEDLE
+//O(N+M)
 vector<int> solve(string &s)
 {
     int m=s.size();
