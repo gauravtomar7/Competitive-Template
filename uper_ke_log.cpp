@@ -99,7 +99,7 @@
             }
             return true;
       }
-      vector<ll> SieveOfEratosthenes(ll n) // prime no. lesser than n
+      vector<ll> SieveOfEratosthenes(ll n) //LINEAR // prime no. lesser than n
       {
             vector<bool> prime(n + 1, true);
                      prime[1] = false;
